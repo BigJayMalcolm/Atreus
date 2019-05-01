@@ -20,6 +20,7 @@ function atreus_after_setup_theme()
     add_theme_support('custom-logo', $defaults);
     add_theme_support('title-tag');
     add_theme_support('automatic-feed-links');
+    add_theme_support('post-thumbnails'); 
 }
 
 add_action( 'after_setup_theme', 'atreus_after_setup_theme' );
@@ -128,3 +129,10 @@ function atreus_customize_register($wp_customize)
         )
    )));
 }
+
+function atreus_the_post_thumbnail()
+{
+    
+}
+
+add_action( 'the_post_thumbnail', 'atreus_the_post_thumbnail' );

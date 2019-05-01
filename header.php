@@ -16,7 +16,7 @@
 
 <body <?php body_class(); ?>>
     <!-- Header -->
-    <section class="hero <?php if(get_theme_mod('atreus_theme_colour_setting')==false){echo 'is-link';}else{esc_html_e(get_theme_mod('atreus_theme_colour_setting'));} ?>">
+    <section class="hero <?php if(get_theme_mod('atreus_theme_colour_setting')==false){echo 'is-link';}else{echo esc_html(get_theme_mod('atreus_theme_colour_setting'));} ?>">
         <div class="hero-head">
             <nav class="navbar">
                 <div class="container">
