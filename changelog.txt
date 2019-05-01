@@ -9,3 +9,6 @@ Version 1.0.2
 
 Version 1.0.3
 - Made fixes requested by review team.
+
+Version 1.1.0
+- Added theme colour customisation.
