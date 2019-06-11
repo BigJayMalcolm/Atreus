@@ -1,6 +1,6 @@
 <?php
 
-require_once get_parent_theme_file_path( '/functions/better-comments.php' );
+require_once get_parent_theme_file_path( '/functions/atreus-comments.php' );
 
 if ( ! isset( $content_width ) ) 
 {
@@ -121,11 +121,11 @@ function atreus_customize_register($wp_customize)
        'section'     => 'atreus_theme_colour_section',
        'type'        => 'select',
        'choices'     => array(
-            'is-link'    => 'Blue',
-            'is-success' => 'Green',
-            'is-danger'  => 'Red',
-            'is-warning' => 'Yellow',
-            'is-primary' => 'Turqoise'
+            'is-link'    => __('Blue', 'atreus'),
+            'is-success' => __('Green', 'atreus'),
+            'is-danger'  => __('Red', 'atreus'),
+            'is-warning' => __('Yellow', 'atreus'),
+            'is-primary' => __('Turqoise', 'atreus')
         )
    )));
 }

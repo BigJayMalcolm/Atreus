@@ -7,7 +7,7 @@
 		</p>
         
         <?php wp_list_comments( array(
-            'callback' => 'better_comments'
+            'callback' => 'atreus_comments'
         ) ); ?>
 	<?php endif; ?>
 
