@@ -18,7 +18,7 @@
             <nav class="navbar">
                 <div class="container">
                     <div class="navbar-brand">
-                        <a class="navbar-item" href="<?php echo esc_url(site_url());?>">
+                        <a class="navbar-item" href="<?php echo esc_url(home_url());?>">
                             <?php
                                 $custom_logo_id = get_theme_mod('custom_logo');
                                 $logo = wp_get_attachment_image_src($custom_logo_id , 'full');

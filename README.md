@@ -3,13 +3,13 @@
 **Contributors:** bigjaymalcolm
 **Requires at least:** 5.2
 **Tested up to:** 5.2.1
-**Stable tag:** 1.1.9
+**Stable tag:** 1.1.11
 **Requires PHP:** 7.0
 
-**Version:** 1.1.9
+**Version:** 1.1.11
 **License:** GNU General Public License v3 or later
 **License URI:** https://www.gnu.org/licenses/gpl-3.0.en.html
-**Tags:** two-columns, right-sidebar, theme-options
+**Tags:** two-columns, right-sidebar, theme-options, custom-menu, blog, custom-logo, featured-images, threaded-comments
 
 Atreus is a simple WordPress blog theme created based on the Bulma framework.
 
@@ -18,16 +18,21 @@ Atreus is a simple WordPress blog theme created based on the Bulma framework.
 No multilevel menu support.
 
 ## Copyright
-
-Atreus Wordpress Theme, Copyright 2019 SitesbyJAM.co.uk
+Atreus Wordpress Theme, Copyright (C) 2019, Jamie Malcolm
 Atreus is distributed under the terms of the GNU GPL
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or(at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 Atreus bundles the following third-party resources:
 
 ## Resources
 * bulma.css © 2019 Jeremy Thomas, MIT. Source: http://bulma.io/
 * fontawesome.js © 2018 fontawesome, MIT, SIL OFL, and CC BY. Source: http://fontawesome.io/
-* Screenshot image of Weymouth Harbour © 2019 Jamie Malcolm, All rights reserved. Source: https://www.flickr.com/photos/158065006@N03/46485397414
+* Screenshot image of Weymouth Harbour © 2019 Jamie Malcolm, the image is released under a CC0 license. Source: https://www.flickr.com/photos/158065006@N03/46485397414
 
 ## Changelog
 
@@ -91,3 +96,11 @@ Atreus bundles the following third-party resources:
 
 ### 1.1.9
 * Removed script from content and content-single.
+
+### 1.1.10
+* Added custom-menu, custom-logo, featured-images, threaded-comments, and blog to theme tags.
+* Updated Copyright notices.
+* Minor php fixes for final check errors.
+
+### 1.1.11
+* Added sanitize_callback to atreus_theme_colour_setting.
